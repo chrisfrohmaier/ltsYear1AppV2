@@ -423,7 +423,7 @@ st.markdown("""
 Inspect the sky map here before moving on to the submission step.
 
 The goal is to avoid oversubscription in Year 1 any R.A. range, which is indicated by the R.A. Time Pressure plot below the sky map.
-We do not want to spend more than 50\% of the available time in any R.A. range.
+We do not want to spend more than 50% of the available time in any R.A. range.
 R.A. pressure is smoothed over a rolling 30 degrees width.
 """)
 st.plotly_chart(fig, use_container_width=True)
